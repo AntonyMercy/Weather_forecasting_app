@@ -1,6 +1,6 @@
 **Weather Forecasting App**
 
-**Project Overview**
+**Project Overview :**
 The Weather Forecasting App provides users with real-time weather information and a 7-day forecast based on their location. The app features a clean, responsive UI developed with Flutter and a backend API built with Node.js.
 
 **Getting Started**
@@ -28,19 +28,18 @@ Installation:
 
      - Open the terminal in Android Studio (View > Tool Windows > Terminal).
      - Run
-     
           flutter pub get
           
 4.Configure API Keys:
+
     - Create a file named api_keys.dart in lib/config/ and add your OpenWeatherMap API key:
-    
-        const String apiKey = 'YOUR_API_KEY_HERE';
+         const String apiKey = 'YOUR_API_KEY_HERE';
         
 5.Run the App:
+
     - Ensure an Android emulator or device is connected.
     - Click the green play button in Android Studio or run the following command in the terminal:
-    
-        flutter run
+         flutter run
 
 Backend (Node.js)
 
