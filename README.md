@@ -15,41 +15,58 @@ Prerequisites:
 Installation:
 
 1.Clone the repository:
+
      git clone <repository-url>
+     
 2.Open the Project in Android Studio:
+
      - Launch Android Studio.
      - Select Open an existing project.
      - Navigate to the cloned repository and open the frontend directory.
+     
 3.Install Dependencies:
      - Open the terminal in Android Studio (View > Tool Windows > Terminal).
      - Run
+     
           flutter pub get
+          
 4.Configure API Keys:
     - Create a file named api_keys.dart in lib/config/ and add your OpenWeatherMap API key:
+    
         const String apiKey = 'YOUR_API_KEY_HERE';
+        
 5.Run the App:
     - Ensure an Android emulator or device is connected.
     - Click the green play button in Android Studio or run the following command in the terminal:
+    
         flutter run
 
 Backend (Node.js)
 
 Prerequisites:
+
     - Node.js
     - npm or yarn
     
 Installation:
 
 1.Navigate to the backend directory:
+
     cd backend
+    
 2.Install dependencies:
+
     npm install
         or
     yarn install
+    
 3.Configure environment variables in a .env file (see .env.example for template):
+
     API_KEY=your_openweathermap_api_key
     PORT=3000
+    
 4.Start the server:
+
     npm start
         or
     yarn start
