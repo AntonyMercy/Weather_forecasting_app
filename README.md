@@ -6,11 +6,14 @@ The Weather Forecasting App provides users with real-time weather information an
 **Getting Started**
 
 Frontend (Flutter)
+
 Prerequisites:
+
     - Flutter SDK: Ensure Flutter is installed. Follow the Flutter installation guide if needed.
     - Android Studio: Installed with Flutter and Dart plugins.
 
 Installation:
+
 1.Clone the repository:
      git clone <repository-url>
 2.Open the Project in Android Studio:
@@ -30,11 +33,13 @@ Installation:
         flutter run
 
 Backend (Node.js)
+
 Prerequisites:
     - Node.js
     - npm or yarn
     
 Installation:
+
 1.Navigate to the backend directory:
     cd backend
 2.Install dependencies:
