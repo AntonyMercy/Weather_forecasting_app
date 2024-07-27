@@ -8,7 +8,6 @@ The Weather Forecasting App provides users with real-time weather information an
 Frontend (Flutter)
 
 Prerequisites:
-
     - Flutter SDK: Ensure Flutter is installed. Follow the Flutter installation guide if needed.
     - Android Studio: Installed with Flutter and Dart plugins.
 
