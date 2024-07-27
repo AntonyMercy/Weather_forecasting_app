@@ -1,4 +1,4 @@
-# weather_forecasting
+WEATHER FORECASTING APP
 
 A new Flutter project.
 
